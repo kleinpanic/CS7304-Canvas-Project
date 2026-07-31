@@ -30,7 +30,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
       - uses: github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7  # v4
         with:
           languages: ${{ matrix.language }}
@@ -52,5 +52,5 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v6
       - uses: actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48  # v4
